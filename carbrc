@@ -1,0 +1,11 @@
+# There are a few basic functions that are available to you
+#
+# 	open_app_window - opens a new window for the specified app
+# 	open_app - opens the app
+
+
+# Open terminal
+[key=(Z), mask=(CMD&SHIFT&CTRL&ALT), task=(open -a Terminal)]
+
+# Open safari
+[key=(I), mask=(CMD&SHIFT), task=(open -a Safari)]
