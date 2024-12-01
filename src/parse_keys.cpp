@@ -23,7 +23,8 @@ check_line(const std::string& line)
 }
 
 bool
-fill_keybinds(Keybind *bind, const std::string& str) {
+fill_keybinds(Keybind *bind, const std::string& str)
+{
     if (!check_line(str)) {
         return false;
     }
@@ -162,4 +163,3 @@ extract_cmd(const std::string& str)
     // Extract the command substring
     return str.substr(start, end - start);
 }
-
